@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript : Mengenal Tipe Data Pada Javascript</title>
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" media="print" onload="this.media='all'">
+</head>
+<body data-rsssl=1>
+	<h1>Tipe Data Number Pada Javascript</h1>
+
+	<!-- id hasil -->
+	<div id="angka"></div>
+	<div id="string"></div>
+	<div id="array"></div>
+	<div id="object"></div>
+
+	<script>
+		// tipe data Number
+		var angka = 08;
+		// tipe data string
+		var kalimat = "Yok Bisa Yok";
+		// tipe data Array
+		var hewan = ["Kambing", "Bebek", "Ayam"];
+		// tipe data object		
+		var manusia = {
+		    nama : "Muammar Yasir",
+		    alamat  : "Banda Aceh",
+		    umur       : 19,
+		    pekerjaan  : "Mahasiswa"
+		};
+
+		// menampilkan tipe data number pada element id hasil
+		document.getElementById("angka").innerHTML = angka;
+		// menampilkan tipe data string pada element id hasil
+		document.getElementById("string").innerHTML = kalimat;
+		// menampilkan tipe data Array pada element id hasil
+		document.getElementById("array").innerHTML = hewan[2];
+		// menampilkan tipe data object pada element id hasil
+		document.getElementById("object").innerHTML = manusia.nama + " tinggal di " + manusia.alamat + " .dia sekarang berumur"+ manusia.umur +" dan bekerja sebagai " + manusia.pekerjaan;
+	</script>
+</body>
+</html>

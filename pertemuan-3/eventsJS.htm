@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript : Mengenal Event Pada Javascript</title>
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" media="print" onload="this.media='all'">
+</head>
+<body data-rsssl=1>
+	<h1>Mengenal Event Pada Javascript</h1>
+
+	<!-- memberikan event pada element tombol -->
+	<button onclick="tampilkan_nama()">Klik Disini</button>
+
+	<!-- id hasil -->
+	<div id="hasil"></div>
+
+	<script>		
+		// membuat function tampilkan_nama
+		function tampilkan_nama(){
+			document.getElementById("hasil").innerHTML = "<h3>Nama Saya Adalah Muammar Yasir</h3>";
+		}
+		
+	</script>
+</body>
+</html>

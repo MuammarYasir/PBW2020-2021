@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript : Switch Case Di Javascript</title>
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700&display=swap" media="print" onload="this.media='all'">
+</head>
+<body data-rsssl=1>
+	<h1>Switch Case Di Javascript</h1>
+
+	<!-- id hasil -->
+	<div id="hasil"></div>
+
+	<script>
+	
+		var warna = "hitam";
+
+		switch (warna){
+			case "hitam":
+				teks = "Warna Hitam";
+				break;
+			case "merah":
+				teks = "Warna Merah";
+				break;
+			case "hijau":
+				teks = "Warna Hijau";
+				break;
+			default:
+			    teks = "Warna tidak terdeteksi";
+		}		
+		
+		document.getElementById("hasil").innerHTML = teks;
+	</script>
+</body>
+</html>
